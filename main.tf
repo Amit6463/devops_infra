@@ -27,6 +27,13 @@ resource "azurerm_resource_group" "example1" {
 }
 
 
+resource "azurerm_resource_group" "example1" {
+  name = "amit15_rg"
+  location = "centralindia"
+}
+
+
+
 
 
 resource "azurerm_storage_account" "stg" {
