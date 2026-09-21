@@ -21,6 +21,11 @@ resource "azurerm_resource_group" "example1" {
   location = "centralindia"
 }
 
+resource "azurerm_resource_group" "example1" {
+  name = "amit10_rg"
+  location = "centralindia"
+}
+
 
 
 
