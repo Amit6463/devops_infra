@@ -16,16 +16,13 @@ resource "azurerm_resource_group" "example" {
   name = "amit5_rg"
   location = "eastus"
 }
-resource "azurerm_resource_group" "example" {
-  name = "amit6_rg"
+resource "azurerm_resource_group" "example1" {
+  name = "amit8_rg"
   location = "centralindia"
 }
 
 
-resource "azurerm_resource_group" "example" {
-  name = "amit8_rg"
-  location = "westus"
-}
+
 
 resource "azurerm_storage_account" "stg" {
   name = "insiderstoarge45678"
